@@ -32,13 +32,18 @@ public class TestDemoLoader {
 	public static void main(String[] args) throws ClassNotFoundException {
 		// TODO Auto-generated method stub
 		System.out.println("main method started");
-		//example for bootstrap classs loader
-		Class c=Class.forName("com.javaintroduction.Cricket");
-		System.out.println(c);
+		//example for bootstrap class loader
+//		Class c3=Class.forName("C:\\Program Files\\Java\\jdk-25.0.3\\lib\\jawt.lib");
+//		System.out.println(c3);
+//		Class c2=Class.forName("com.javawork.Bank");
+//		System.out.println(c2);
+		Class c1=Class.forName("com.javaintroduction.Cricket");
+		System.out.println(c1);
+		
         
 		//application class loader example
-		Class c1=Class.forName("com.mysql.cj.jdbc.admin");
-		System.out.println(c1);
+//		Class c1=Class.forName("com.mysql.cj.jdbc.admin");
+//		System.out.println(c1);
 		System.out.println("main method ended");
 		
 	}

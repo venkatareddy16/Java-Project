@@ -1,63 +1,60 @@
 package com.langfunda.methods;
-//WAP to print Calculation for addition subtraction multiplication division & modulus.
-//Arithmetic Operators : + - * / % 
-//addition(+) 				--> sum 	--> 100+900 -> 1000
-//subtraction(-) 			--> diff 	--> 100-10 --> 90 
-//multiplication(*) 		--> product  --> 10*10 --> 100 
-//division(/) 				--> quotient --> 98/4 --> 24
-//modulus (%) 				--> reminder --> 98%4 --> 2 
-//methods with no arguments + no return type 
-//BODMAS 
+import java.util.Scanner;
 public class TypesOfMethods2 {
-	void addition() {
-		int a = 10;
-		int b = 98;
-//		String + anything is String only 
-//		Concatenation 
-		System.out.println("Addition of Two numbers is : " + a + b);// 1098
-		System.out.println("Addition of Two numbers is : " + (a + b) + 10);// 108
-	}
-
-	void subtraction() {
-		float a = 10;
-		float b = 30;
-
-		// The operator - is undefined for the argument type(s) String, float
-//		System.out.println("Subtraction of two numbers " + b-a);//CE 
-
-		System.out.println("Subtraction of two numbers " + (b - a));
-	}
-
-	void multiplication() {
-		double a = 10.5;
-		double b = 98.25;
-		System.out.println("Multiplication of two numbers : " + a * b);
-	}
-
-	void division() {
-		long l1 = 55;
-		long l2 = 4;
-
-		System.out.println("Division of two numbers: " + l1 / l2);// Quotient
-	}
-
-	void modulus() {
-		long l1 = 55;
-		long l2 = 4;
-		System.out.println("Modulus of two numbers: " + l1 % l2);// Reminder
-	}
-
+    void getName(String s) {
+    	System.out.println("Name of the Empolyee: "+s);
+    }
+    void getAge(int a) {
+    	System.out.println("Age of Employee: "+a);
+    }
+    void getSalary(float b) {
+    	System.out.println("Salary of Employee: "+b);
+    }
+    void getIncome(double d) {
+    	System.out.println("Total Income of Employee: "+d);
+    }
+    void isSatisfied(boolean boo) {
+    	System.out.println("Satisfaction of Employee: "+boo);
+    }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("main method started ");
-		TypesOfMethods2 t1=new TypesOfMethods2();
-		t1.addition();
-		t1.subtraction();
-		t1.multiplication();
-		t1.division();
-		t1.modulus();
-
-		System.out.println("main method ended ");
+		System.out.println("main method started");
+		//TypesOfMethods3 m=new TypesOfMethods3();
+		Scanner sc=new Scanner(System.in);
+		//String using scanner
+		String s=sc.next();
+		TypesOfMethods2 m=new TypesOfMethods2();
+		m.getName(s);
+		
+		//int using scanner
+		int a=sc.nextInt();
+		m.getAge(a);
+		
+		//float using scanner
+		float b=sc.nextFloat();
+		m.getSalary(b);
+		
+		//double using scanner
+		double d=sc.nextDouble();
+		m.getIncome(d);
+	
+		//boolean using scanner
+		boolean boo=sc.nextBoolean();
+		m.isSatisfied(boo);
+		
+		//char using scanner
+		char ch=sc.next().charAt(0);
+		System.out.println("character is :"+ch);
+		
+		//byte using scanner
+		byte by=sc.nextByte();
+		System.out.println("Byte is :"+by);
+		
+		
+		//short using scanner
+		short sh=sc.nextShort();
+		System.out.println("short is :"+sh);
+		
 
 	}
 

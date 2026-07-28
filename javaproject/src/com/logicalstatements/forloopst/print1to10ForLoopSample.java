@@ -1,4 +1,4 @@
-package com.logicalstatements.loopingst;
+package com.logicalstatements.forloopst;
 public class print1to10ForLoopSample {
 
 	public static void main(String[] args) {

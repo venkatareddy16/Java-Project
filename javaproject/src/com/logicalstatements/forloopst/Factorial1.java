@@ -1,4 +1,4 @@
-package com.logicalstatements.loopingst;
+package com.logicalstatements.forloopst;
 import java.math.BigInteger;
 import java.util.*;
 //we can use int type for fact when the input number is 0 to 33

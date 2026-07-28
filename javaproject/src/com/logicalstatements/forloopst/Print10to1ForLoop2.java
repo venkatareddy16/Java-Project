@@ -1,4 +1,4 @@
-package com.logicalstatements.loopingst;
+package com.logicalstatements.forloopst;
 
 public class Print10to1ForLoop2 {
 

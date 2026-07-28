@@ -2,7 +2,7 @@
 //no of identifers in this program is: 12
 public class TestIdentifiers {
 	int $studentid$=16;
-	String _name="Venkata Reddy";
+	String _name="Venkata Reddy";____
 	
 	void display() {
 		System.out.println($studentid$);

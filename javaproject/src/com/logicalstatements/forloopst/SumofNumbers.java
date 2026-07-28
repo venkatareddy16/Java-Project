@@ -1,4 +1,4 @@
-package com.logicalstatements.loopingst;
+package com.logicalstatements.forloopst;
 import java.util.*;
 public class SumofNumbers {
     static int findSum(int a,int b) {
